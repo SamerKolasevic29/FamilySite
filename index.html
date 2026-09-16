@@ -3,23 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kolasević - Family Site center</title>
-<meta name="description" content="Kolasević - Site center with reffering links to Portfolio and family websites">
+<title>Kolasević - Porodični centar stranica</title>
+<meta name="description" content="Kolasević - Centralna stranica sa poveznicama na porodične i portfolio stranice: Amel, Meho i Samer Kolasević.">
+<meta name="keywords" content="Kolasevic, kolasevic, Samer, Amel, samer, amel, Meho, Mehmed, planinarstvo, Travnik,kilimendzaro, Kolasević, Amel Kolasević, Meho Kolasević, Samer Kolasević, Travnik, porodica Kolasević, portfolio, CV">
+<meta name="author" content="Kolasević">
 <meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15161a">
 <link rel="canonical" href="https://kolasevic.com/">
+
+<link rel="icon" type="image/png" href="assets/Icons/Kolasevic.png">
+<link rel="apple-touch-icon" href="assets/Icons/Kolasevic.png">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kolasević">
-<meta property="og:description" content="Kolasevic website - Site center">
+<meta property="og:description" content="Kolasević - centralna stranica porodice. Poveznice na Amela, Meha i Samera Kolasevića.">
 <meta property="og:url" content="https://kolasevic.com/">
+<meta property="og:image" content="https://kolasevic.com/assets/Backgrounds/KolasevicBanner.jpg">
 <meta property="og:site_name" content="Kolasević">
 <meta property="og:locale" content="bs_BA">
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Kolasević">
-<meta name="twitter:description" content="Personal landing website Kolasević">
+<meta name="twitter:description" content="Centralna stranica porodice Kolasević">
+<meta name="twitter:image" content="https://kolasevic.com/assets/Backgrounds/KolasevicBanner.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,16 +38,36 @@
 <body>
 
 <header class="site-header">
-
+  <div class="header-left">
+    <img src="assets/Icons/Kolasevic.png" alt="Kolasević" class="mark-icon">
+  </div>
+  <button class="lang-btn" id="langToggle" aria-label="Toggle language" type="button">
+    <span class="lang-icon">🌎</span>
+    <span class="lang-text" id="langText">EN</span>
+  </button>
 </header>
 
 <main>
-  <section class="intro">
+  <section class="intro" style="background-image: linear-gradient(180deg, rgba(21,22,26,0.55), rgba(21,22,26,0.92))">
     <h1>Kolasević</h1>
-    <p>Three sides, one surname</p>
+    <p data-en="Three sides, one surname" data-bs="Tri strane, jedno prezime">Tri strane, jedno prezime</p>
   </section>
 
-  <section class="grid" aria-label="Personal websites">
+  <section class="grid" aria-label="Lične stranice">
+
+    
+    
+
+    <a class="card" href="https://meho.kolasevic.com/" target="_blank" rel="noopener">
+      <div class="card-image">
+        <img src="assets/Backgrounds/Meho.jpg" alt="Meho Kolasević" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h2>Mehmed - Meho</h2>
+        <p class="url">meho.kolasevic.com</p>
+        <p class="desc" data-en="A legacy website from 2007 that is being revived using modern, minimalist technology. It showcases the biography, successes, and achievements of Amel and Samer's grandfather. It also features a diverse photo album of the family and the town of Travnik, as well as the town's history." data-bs="Stara stranica iz 2007. godine koja se oživljava uz pomoć moderne, minimalističke tehnologije. Prikazuje biografiju, uspjehe i dostignuća djeda Amela i Samera. Sadrži i bogat foto album porodice i grada Travnika, kao i historiju samog grada.">Stara stranica iz 2007. godine koja se oživljava uz pomoć moderne, minimalističke tehnologije. Prikazuje biografiju, uspjehe i dostignuća djeda Amela i Samera. Sadrži i bogat foto album porodice i grada Travnika, kao i historiju samog grada.</p>
+      </div>
+    </a>
 
     <a class="card" href="https://amel.kolasevic.com/" target="_blank" rel="noopener">
       <div class="card-image">
@@ -48,18 +76,7 @@
       <div class="card-body">
         <h2>Amel</h2>
         <p class="url">amel.kolasevic.com</p>
-        <p class="desc">Amel Kolasević's portfolio website. It showcases his academic work and completed projects, along with his personal details and contact information.Amel is a third-year Software Engineering student aiming to specialize in mobile application development.</p>
-      </div>
-    </a>
-
-    <a class="card" href="https://meho.kolasevic.com" target="_blank" rel="noopener">
-      <div class="card-image">
-        <img src="assets/Backgrounds/Meho.jpg" alt="Meho Kolasević" loading="lazy">
-      </div>
-      <div class="card-body">
-        <h2>Meho</h2>
-        <p class="url">meho.kolasevic.com</p>
-        <p class="desc">A legacy website from 2007 that is being revived using modern, minimalist technology. It showcases the biography, successes, and achievements of Amel and Samer's grandfather. It also features a diverse photo album of the family and the town of Travnik, as well as the town's history.</p>
+        <p class="desc" data-en="Amel Kolasević's portfolio website. It showcases his academic work and completed projects, along with his personal details and contact information. Amel is a third-year Software Engineering student aiming to specialize in mobile application development." data-bs="Portfolio stranica Amela Kolasevića. Prikazuje njegov akademski rad, završene projekte, lične podatke i kontakt informacije. Amel je student treće godine Softverskog inženjerstva, usmjeren na razvoj mobilnih aplikacija.">Portfolio stranica Amela Kolasevića. Prikazuje njegov akademski rad, završene projekte, lične podatke i kontakt informacije. Amel je student treće godine Softverskog inženjerstva, usmjeren na razvoj mobilnih aplikacija.</p>
       </div>
     </a>
 
@@ -70,13 +87,10 @@
       <div class="card-body">
         <h2>Samer</h2>
         <p class="url">samer.kolasevic.com</p>
-        <p class="desc">Personal portfolio websites about Samer Kolasević. This websites holds his personal contact, work and projects, tech stack and articles. Passionate about Backend and platform engineering, System administration and tool programming.</p>
+        <p class="desc" data-en="Personal portfolio website about Samer Kolasević. This website holds his personal contact, work and projects, tech stack and articles. Passionate about Backend and platform engineering, System administration and tool programming." data-bs="Lična portfolio stranica Samera Kolasevića. Sadrži njegove kontakt podatke, radove i projekte, tehnički stack i članke. Fokusiran na backend i platform inženjerstvo, sistemsku administraciju i razvoj alata.">Lična portfolio stranica Samera Kolasevića. Sadrži njegove kontakt podatke, radove i projekte, tehnički stack i članke. Fokusiran na backend i platform inženjerstvo, sistemsku administraciju i razvoj alata.</p>
       </div>
     </a>
 
-    
-
-    
 
   </section>
 </main>
@@ -85,7 +99,7 @@
   <div class="footer-inner">
 
     <div class="contact-block">
-      <h3>Samer's Contact</h3>
+      <h3 data-en="Samer's Contact" data-bs="Samerovi kontakti">Samerovi kontakti</h3>
       <ul class="contact-list">
         <li>
           <a href="https://www.linkedin.com/in/samer-kolasevi%C4%87-119aaa377/" target="_blank" rel="noopener">
@@ -109,7 +123,7 @@
     </div>
 
     <div class="contact-block">
-      <h3>Amel's contact</h3>
+      <h3 data-en="Amel's Contact" data-bs="Amelovi kontakti">Amelovi kontakti</h3>
       <ul class="contact-list">
         <li>
           <a href="https://www.linkedin.com/in/amel-kolasevi%C4%87-7a7657359/" target="_blank" rel="noopener">
@@ -137,6 +151,33 @@
   <p class="copyright">© <span id="year"></span> Kolasević</p>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+(function () {
+  var STORAGE_KEY = 'kolasevic-lang';
+  var toggle = document.getElementById('langToggle');
+  var langText = document.getElementById('langText');
+  var nodes = document.querySelectorAll('[data-en][data-bs]');
+
+  function applyLang(lang) {
+    nodes.forEach(function (el) {
+      el.innerHTML = el.getAttribute('data-' + lang);
+    });
+    document.documentElement.setAttribute('lang', lang);
+    langText.textContent = lang === 'bs' ? 'EN' : 'BS';
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+  }
+
+  var saved = 'bs';
+  try { saved = localStorage.getItem(STORAGE_KEY) || 'bs'; } catch (e) {}
+  applyLang(saved);
+
+  toggle.addEventListener('click', function () {
+    var current = document.documentElement.getAttribute('lang') === 'bs' ? 'en' : 'bs';
+    applyLang(current);
+  });
+})();
+</script>
 </body>
 </html>
